@@ -1,6 +1,9 @@
 # drawtrajectory
-描绘三维相机轨迹，由轨迹坐标
+描绘三维相机轨迹
 
-描绘轨迹
-trajectory.txt
-[t,tx,ty,tz,qx,qy,qz,qw]
+使用库Eigen Sophus Pangolin
+
+trajectory.txt -----[t,tx,ty,tz,qx,qy,qz,qw]
+
+该程序只描绘单线轨迹
+./data/trajectory.txt
